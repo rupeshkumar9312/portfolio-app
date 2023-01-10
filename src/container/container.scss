@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    
+    width: 70%;
+    margin: auto;
+
+    height: 50vh;
+
+    @media screen and (max-width : 900px){
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.child-container {
+    margin-top: 50px;
+    display: flex;
+    height: 100%;
+    // background-color: antiquewhite;
+    width: 60%;
+    text-align: left;
+    font-family: 'Cormorant Garamond", serif;';
+    @media screen and (max-width : 900px){
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.child-container p {
+    // margin: auto;
+}
+
+.designation {
+    font-family: 'Poppins, sans-serif';
+    color: rgb(133, 135, 146);
+    font-size: 5vh;
+    font-weight: 400;
+
+}
+
+h1{
+    font-size: 6vh;
+}
+
+.text-name{
+    // line-height: 100px;
+    font-size: 10vh;
+}
+
+.tabs-container{
+    height: 10vh;
+    margin-top: 5vh;
+}
