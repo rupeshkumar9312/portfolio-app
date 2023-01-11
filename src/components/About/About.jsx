@@ -9,6 +9,29 @@ import ImageCard from '../../container/ImageCard'
 import Education from '../Education/Education'
 
 function About() {
+
+  // this will be populated from api
+
+  const educationHistory = [
+    {
+      id: 1,
+      from: "2009",
+      to: "2010",
+      title: "Secondary School",
+      name: "Jawahar Navodaya Vidyalaya, Agra",
+      description: "Did class 10th from here"
+
+    },
+    {
+      id: 2,
+      from: "2011",
+      to: "2012",
+      title: "Senior Secondary School",
+      name: "Jawahar Navodaya Vidyalaya, Agra",
+      description: "Did class 12th from here"
+
+    }
+  ]
   return (
     <div className='about'>
       <Container className='container-60vh'>
@@ -23,16 +46,13 @@ function About() {
 
       </Container>
 
-      <Container className="tabs-container">
+      {/* <Container className="tabs-container">
         <Tab className="tab-left">Education</Tab>
         <Tab className="tab-right">Experience</Tab>
       </Container>
-      <div className='education-list'>        <Education></Education>
-        <Education></Education>
-        <Education></Education>
-        <Education></Education>
-
-      </div>
+      <div className='education-list'>
+        <Education data={educationHistory}/>
+      </div> */}
 
 
     </div>

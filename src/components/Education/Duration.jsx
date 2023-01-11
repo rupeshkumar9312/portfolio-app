@@ -1,10 +1,10 @@
 import React from 'react'
 import './duration.scss'
 
-function Duration() {
+function Duration(props) {
   return (
     <div className='duration'>
-        Duration
+        <div className='duration-text'>{props.children}</div>
     </div>
   )
 }
