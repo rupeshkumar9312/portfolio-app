@@ -10,7 +10,7 @@ import ImageCard from '../../container/ImageCard'
 function About() {
   return (
     <div className='about'>
-      <Container>
+      <Container className='container-60vh'>
         <div className='child-container-01'>
           
         <img src="https://htmldemo.net/lendex/lendex/assets/images/portrait/portrait-hero.png" alt="" srcset="" />

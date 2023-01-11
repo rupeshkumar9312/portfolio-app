@@ -18,8 +18,9 @@ function Navbar(props) {
       <Link className='item' to={'/education'}> <NavItem ><FaGraduationCap /></NavItem></Link>
       <Link className='item' to={'/experience'}><NavItem ><FaBookOpen></FaBookOpen></NavItem></Link>
       <Link className='item' to={'/contact'}> <NavItem ><FaPhone /></NavItem></Link>
-      <NavItem><Button>Hire Me</Button></NavItem>
-                
+      <div className='btn-hire_me'>
+        <Button>Hire Me</Button>
+      </div>
     </div>
   )
 }

@@ -10,8 +10,7 @@ function Home() {
     <div>
       <Container>
         <motion.div className='child-container'
-        animate={{ x: 100 }}
-        transition={{ ease : easeIn }}
+        
       >
           <p>
             <h1>Hello 👋 I'm</h1>

@@ -4,7 +4,7 @@
     width: 70%;
     margin: auto;
 
-    height: 50vh;
+    height: 80vh;
 
     @media screen and (max-width : 900px){
         display: flex;
@@ -18,7 +18,7 @@
     display: flex;
     height: 100%;
     // background-color: antiquewhite;
-    width: 60%;
+    width: 70%;
     text-align: left;
     font-family: 'Cormorant Garamond", serif;';
     @media screen and (max-width : 900px){
@@ -52,4 +52,8 @@ h1{
 .tabs-container{
     height: 10vh;
     margin-top: 5vh;
+}
+
+.container-60vh{
+    height: 60vh;
 }
