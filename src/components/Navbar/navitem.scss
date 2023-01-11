@@ -2,10 +2,12 @@
     width: calc(100% / 7);
     cursor: pointer;
     &:hover{
-        background-color: rgb(88, 88, 88);
+        background-color: white;
+        color: black;
         transition: all 0.3s ease-in;
     }
-    color: black;
+    // color: rgba(209, 209, 209, 0.614);
+    color: white;
     font-size: 5vh;
     display: flex;
     flex-direction: column;
