@@ -10,3 +10,11 @@
     -moz-box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
 }
+
+.btn-hire_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
