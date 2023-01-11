@@ -21,3 +21,16 @@
 
 }
 
+.education-list {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    @media screen and (max-width : 900px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+

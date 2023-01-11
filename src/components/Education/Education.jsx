@@ -1,7 +1,8 @@
 import React from 'react'
 import '../Education/education.scss'
 import {FaGraduationCap} from 'react-icons/fa'
-function Education() {
+import Duration from './Duration'
+function Education(props) {
 
   const educationHistory = [
     {
@@ -25,7 +26,10 @@ function Education() {
   ]
   return (
     <div className='education'>
-      Education Component
+      <Duration></Duration>
+      <h1>Bachelor of Technology , (CSE)</h1>
+      <h2>Faculty of Engineering and Technology, Agra College, Agra</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indus dard dummy text ever since the 1500 when an uniknown prnter took galley of type and scrambled make specimen book has not only five centuries the into electronic.</p>
     </div>
   )
 }
