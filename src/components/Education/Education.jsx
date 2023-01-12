@@ -2,6 +2,7 @@ import React from 'react'
 import '../Education/education.scss'
 import { FaGraduationCap } from 'react-icons/fa'
 import Duration from './Duration'
+import Container from '../../container/Container'
 function Education(props) {
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import './navbar.scss'
 
-import { FaBookOpen, FaGraduationCap, FaHome, FaPhone, FaUser } from 'react-icons/fa';
+import { FaBookOpen, FaDownload, FaFileDownload, FaGraduationCap, FaHome, FaPhone, FaUser } from 'react-icons/fa';
 import { GiSkills } from 'react-icons/gi';
 
 import NavItem from './NavItem';
@@ -19,7 +19,7 @@ function Navbar(props) {
       <Link className='item' to={'/experience'}><NavItem ><FaBookOpen></FaBookOpen></NavItem></Link>
       <Link className='item' to={'/contact'}> <NavItem ><FaPhone /></NavItem></Link>
       <div className='btn-hire_me'>
-        <Button>Hire Me</Button>
+        <Button>Hire Me <FaFileDownload></FaFileDownload></Button>
       </div>
     </div>
   )

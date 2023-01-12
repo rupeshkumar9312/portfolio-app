@@ -4,7 +4,7 @@ import './button.scss'
 function Button(props) {
   return (
     <button className='button'>
-        <h3>{props.children} <FaDownload></FaDownload></h3>
+        <h3>{props.children}</h3>
     </button>
   )
 }

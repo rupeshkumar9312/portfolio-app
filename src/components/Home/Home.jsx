@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaHome } from 'react-icons/fa'
+import { FaDownload, FaHome } from 'react-icons/fa'
 import Container from '../../container/Container'
 import ImageCard from '../../container/ImageCard'
 import Button from '../UI/Button'
@@ -16,7 +16,7 @@ function Home() {
             <h1>Hello 👋 I'm</h1>
             <h1 className='text-name'>Rupesh Kumar</h1>
             <p className='designation'>Software Developer</p>
-            <Button>Get Resume</Button>
+            <Button>Get Resume <FaDownload></FaDownload></Button>
           </p>
           
         </motion.div>
