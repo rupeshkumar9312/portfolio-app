@@ -1,0 +1,22 @@
+.card{
+    width: 70%;
+    height: 25%;
+    margin-left: 15%;;
+    margin-right: 15%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #2a2c39;
+    -webkit-box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
+}
+
+.card-margin-top{
+    margin-top: auto;
+}
+
+.card-margin-bottom{
+    margin-bottom: auto;
+}

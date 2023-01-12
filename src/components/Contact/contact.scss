@@ -1,8 +1,114 @@
 .contact{
-    width: calc(100% / 6);
-    cursor: pointer;
-    &:hover{
-        background-color: rgb(88, 88, 88);
-        transition: all 1s ease-in;
+    width: 80%;
+    margin: auto;
+    color: white;
+    // display: flex;
+    // flex-direction: column;
+    font-family: 'Cormorant Garamond", serif;';
+    
+    .text{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Cormorant Garamond", serif;';
+    }
+
+    .text-contact-me{
+        align-items: center;
+        
+    }
+
+    .contact-details{
+        display: flex;
+        // background-color: black;
+        // flex-direction: row;
+        
+        
+    }
+
+    .form-container{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+
+        .div{
+            height: 500px;
+            display: flex;
+            background-color: black;
+            flex-direction: row;
+        }
+    }
+    
+}
+
+.form-div{
+    width: 100%;
+    
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    input{
+        width: 50%;
+        height: 100%;
+        background: transparent;
+        border: 1px solid gray;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        font-family: 'Cormorant Garamond", serif;';
+        &:hover{
+            border: 2px solid white;
+            transition: all 0.3s ease-in;
+        }
+    }
+
+
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-bottom: 40px;
+
+    .left{
+        margin-left: 10px;
+
+    }
+    .right{
+        margin-right: 10px;
+    }
+
+}
+
+.form-row-100{
+    // display: flex;
+    // flex-direction: row;
+    height: 25vh;
+    margin-bottom: 40px;
+    
+    width: 100%;
+    textarea{
+        width: 100%;
+        height: 25vh;
+        background: transparent;
+        border: 1px solid gray;
+        font-size: 25px;
+
+        text-align: center;
+        color: white;
+        font-family: 'Cormorant Garamond", serif;';
+        &:hover{
+            border: 2px solid white;
+            transition: all 0.3s ease-in;
+        }
     }
 }
+
+
+

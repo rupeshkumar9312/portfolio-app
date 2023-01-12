@@ -61,3 +61,44 @@ h1{
 .container-60vh{
     height: 60vh;
 }
+
+.container-30vh{
+    height: 30vh;
+}
+
+.container-width-30{
+    width: 30%;
+    margin: 0;
+    background: #22242f;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
+    
+}
+
+.container-width-60{
+    width: 70%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+    font-family: 'Cormorant Garamond", serif;';
+    h2{
+        font-size: 8vh;
+        font-weight: 200;
+    }
+    p{
+        font-size: medium;
+    }
+
+    // -webkit-box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
+    // -moz-box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
+    // box-shadow: 0px 7px 13px -4px rgba(0, 0, 0, 0.75);
+
+}
+
+.container-width-80{
+    width: 80%;
+}
