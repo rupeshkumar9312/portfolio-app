@@ -1,10 +1,13 @@
 import React from 'react'
 import {FaBookOpen} from 'react-icons/fa'
+import Container from '../../container/Container'
 import '../Experience/experience.scss'
 function Experience() {
   return (
     <div className='experience'>
-        <FaBookOpen></FaBookOpen>
+      <Container>
+        
+      </Container>
     </div>
   )
 }
