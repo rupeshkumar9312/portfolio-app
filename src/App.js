@@ -61,7 +61,7 @@ function App() {
           <Route path='about' element={<About/>}></Route>
           <Route path='skills' element={<Skills/>}></Route>
           <Route path='education' element={<Education data={educationHistory}/>}></Route>
-          <Route path='experience' element={<Experience/>}></Route>
+          <Route path='experience' element={<Education data={educationHistory}/>}></Route>
           <Route path='contact' element={<Contact/>}></Route>
         </Routes>
       </BrowserRouter>
